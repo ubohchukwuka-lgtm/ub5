@@ -1,0 +1,55 @@
+.pitch{
+    max-width: 1000px;
+    height: 600px;
+    margin: 100px auto;
+    border: 5px solid black;
+    background-color: green;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+}
+
+.pitch .ball{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid red;
+}
+.first{
+    position: absolute;
+    right: 40%;
+    top: 10;
+}
+.first img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+header{
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: green;
+    box-shadow: 10px 10px 10px blue;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-radius: 10px;
+}
+.fa-message{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    color: green;
+}
+.second{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.third{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}

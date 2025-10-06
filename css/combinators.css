@@ -1,0 +1,21 @@
+.parent h1{
+    background-color: black;
+    color: red;
+}
+.parent>h1{
+    background-color: green;
+}
+h2+p{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    font-size: 1em;
+}
+.parent div div div p+h3{
+    background-color: yellow;
+    color: black;
+}
+.parent div div h2~p{
+    background-color: red;
+    color: yellow;
+}

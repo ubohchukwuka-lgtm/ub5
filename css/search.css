@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    border-bottom: 2px solid red;
+    padding: 30px;
+    color: white;
+}
+header div input{
+    border: none;
+    padding: 5px 8px;
+}
+header div input:focus{
+    background-color: red;
+}
